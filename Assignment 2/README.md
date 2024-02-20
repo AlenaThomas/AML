@@ -1,15 +1,15 @@
-Assignment 2: Experiment Tracking 
+# Assignment 2: Experiment Tracking 
 
-DATA VERSION CONTROL
+## DATA VERSION CONTROL
 
-in prepare.ipynb track the versions of data using dvc
+In prepare.ipynb track the versions of data using dvc
 1. load the raw data into raw_data.csv and save the split data into train.csv/validation.csv/test.csv
 2. update train/validation/test split by choosing different random seed
 3. checkout the first version (before update) using dvc and print the distribution of target variable (number of 0s and number of 1s) in train.csv, validation.csv, and test.csv
 4. checkout the updated version using dvc and print the distribution of target variable in train.csv, validation.csv, test.csv
 5. bonus: (decouple compute and storage) track the data versions using google drive as storage
 
-MODEL VERSION CONTROL & EXPERIMENT TRACKING
+## MODEL VERSION CONTROL & EXPERIMENT TRACKING
 
 in train.ipynb track the experiments and model versions using mlflow
 1. build, track, and register 3 benchmark models using MLflow
