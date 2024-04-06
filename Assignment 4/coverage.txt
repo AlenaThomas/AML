@@ -1,0 +1,20 @@
+======================================= test session starts ========================================
+platform linux -- Python 3.10.12, pytest-7.4.4, pluggy-1.4.0
+rootdir: /content
+plugins: cov-4.1.0, anyio-3.7.1
+collected 7 items
+
+test.py .......                                                                              [100%]
+
+---------- coverage: platform linux, python 3.10.12-final-0 ----------
+Name       Stmts   Miss  Cover
+------------------------------
+app.py        15     15     0%
+model.py      24     24     0%
+score.py      18      0   100%
+test.py       57      7    88%
+------------------------------
+TOTAL        114     46    60%
+
+
+======================================== 7 passed in 4.49s =========================================
